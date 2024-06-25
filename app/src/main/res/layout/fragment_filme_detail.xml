@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".fragments.FilmeDetailFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_poster"
+                    android:layout_width="150dp"
+                    android:layout_height="225dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_detail_filme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        tools:text="Breaking bad"
+                        android:textSize="20sp"
+                        app:drawableStartCompat="@drawable/ic_movies" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_genero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        tools:text="Genero"
+                        android:textSize="20sp"
+                        app:drawableStartCompat="@drawable/ic_category_dashboard"/>
+
+                    <TextView
+                        android:id="@+id/tv_detail_data_lanc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        tools:text="Data"
+                        android:textSize="20sp"
+                        app:drawableStartCompat="@drawable/ic_calendar"/>
+
+                    <TextView
+                        android:id="@+id/tv_detail_imdb_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        tools:text="Rating IMDB"
+                        android:textSize="20sp"
+                        app:drawableStartCompat="@drawable/ic_rating_det"/>
+
+                    <TextView
+                        android:id="@+id/tv_detail_imdb_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        tools:text="Link IMDB"
+                        android:textSize="20sp"
+                        app:drawableStartCompat="@drawable/ic_link"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_detail_sinopse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                tools:text="Sinopse"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/avalia_o_do_utilizador"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_cinema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                tools:text="Cinema onde o filme foi visto"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_cinema"/>
+
+            <TextView
+                android:id="@+id/tv_detail_avaliacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                tools:text="Avaliação"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_rating_det"/>
+
+            <TextView
+                android:id="@+id/tv_detail_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                tools:text="Data"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_calendar"/>
+
+            <TextView
+                android:id="@+id/tv_detail_observações"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                tools:text="Observacoes"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_comment"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/fotos"
+                android:textSize="20sp"
+                app:drawableStartCompat="@drawable/ic_add_photo"/>
+
+            <LinearLayout
+                android:id="@+id/ll_foto_detail_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/tv_semFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/n_o_tem_fotos_carregue_aqui_para_adicionar"
+                    android:textSize="20sp"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:focusable="true" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lv_lista_photos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CineCartaz</string>
+    <string name="DashBoardFrag">Painel de Controlo</string>
+
+    <!-- Drawer -->
+    <string name="Dashboard">Painel de Controlo</string>
+    <!-- <string name="history">Histórico </string> -->
+    <string name="drawer_open">Aberto</string>
+    <string name="drawer_close">Fechado</string>
+    <string name="registar_filme">Registar Filme</string>
+    <string name="filmes">Filmes</string>
+
+
+    <string name="selecione_uma_data">Selecione uma Data</string>
+    <string name="lista_de_filmes">Clique no item para ver os detalhes</string>
+    <string name="required_movie_name">Precisa de introduzir um filme</string>
+    <string name="required_cinema_name">Precisa de introduzir um cinema</string>
+    <string name="required_rating_name">Precisa de por um valor entre 1 a 10</string>
+    <string name="required_data_name">Precisa de introduzir uma data</string>
+    <string name="cinemas">Cinemas</string>
+
+    <string name="dialog_message">Pesquisa por vóz</string>
+    <string name="dialog_leave">Parar</string>
+    <string name="numero_de_filmes_vistos">Numero de filmes vistos:</string>
+    <string name="detalhes_de_filme">Detalhes de Filme</string>
+    <string name="categoria_favorita">Categoria Favorita:</string>
+    <string name="registe_o_seu_filme_aqui">Registe o seu filme aqui:</string>
+    <string name="registo_de_filme">Registo de filme</string>
+    <string name="cinemas_perto_de_si">Cinemas perto de si:</string>
+    <string name="n_o_tem_fotos_carregue_aqui_para_adicionar">Não tem fotos adicionadas.</string>
+    <string name="filme">Filme:</string>
+    <string name="cinema">Cinema:</string>
+    <string name="avalia_o">Avaliação:</string>
+    <string name="data">Data:</string>
+    <string name="observacoes">Observações:</string>
+    <string name="nome_do_filme">Nome do Filme</string>
+    <string name="cinema_onde_foi_vizualizado">Cinema onde foi vizualizado</string>
+    <string name="avalia_o_do_filme_1_10">Avaliação do filme (1-10)</string>
+    <string name="data_de_visualiza_o">Data de visualização</string>
+    <string name="adicionar_foto">Adicionar foto</string>
+    <string name="observa_es_opcional">Observações (Opcional)</string>
+    <string name="submeter">Submeter</string>
+    <string name="lista_de_cinemas">Lista De Cinemas</string>
+    <string name="detalhe_de_filme">Detalhe De Filme</string>
+    <string name="lista_de_filmes_title">Lista De Filmes</string>
+    <string name="lista">"Lista "</string>
+    <string name="registo_de_filme_title">Registo De Filme</string>
+    <string name="dashboard">Painel de Controlo</string>
+    <string name="hello_blank_fragment">sup fragment</string>
+    <string name="no_category">N/A</string>
+    <string name="zero">0</string>
+    <string name="mapa">Mapa</string>
+    <string name="fieldError">Campo Inválido</string>
+    <string name="fotos">"  Fotos:"</string>
+    <string name="avalia_o_do_utilizador">Avaliação do Utilizador:</string>
+    <string name="dialog_search">Pesquisar</string>
+    <string name="dialog_voice">Voz</string>
+    <string name="movie_not_found">Filme não encontrado!</string>
+    <string name="n_o_conseguiu_aceder_internet">Não conseguiu aceder à internet</string>
+    <string name="n_o_foram_introduzidos_coment_rios">Não foram introduzidos comentários</string>
+</resources>

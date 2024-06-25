@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="@string/Dashboard"/>
+        <item
+            android:id="@+id/nav_registoDeFilmes"
+            android:icon="@drawable/ic_registration_dashboard"
+            android:title="@string/registar_filme"/>
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_movies"
+            android:title="@string/filmes"/>
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_map_dashboard"
+            android:title="@string/mapa"/>
+        <item
+            android:id="@+id/nav_cinemas"
+            android:icon="@drawable/ic_cinema"
+            android:title="@string/cinemas"/>
+
+    </group>
+</menu>
